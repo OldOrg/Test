@@ -11,6 +11,7 @@ public class HelloWorldActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
     	//This is a comment
+    	//This is a comment
     	Log.d(TAG, "onCreate");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
