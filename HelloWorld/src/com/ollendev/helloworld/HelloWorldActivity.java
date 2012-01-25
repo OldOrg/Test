@@ -21,4 +21,10 @@ public class HelloWorldActivity extends Activity {
 		// TODO Auto-generated method stub
 		super.onPause();
 	}
+
+	@Override
+	protected void onDestroy() {
+		// TODO Auto-generated method stub
+		super.onDestroy();
+	}
 }
